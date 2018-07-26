@@ -1199,7 +1199,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="10.668" y="1.651" size="0.8128" layer="27" ratio="10"/>
 </element>
 <element name="PPS" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIP-LED0805" value="" x="40.132" y="13.97" rot="R180"/>
-<element name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0805" value="1K" x="37.338" y="14.986" smashed="yes">
+<element name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0805" value="50" x="37.338" y="14.986" smashed="yes">
 <attribute name="VALUE" x="36.576" y="12.7" size="1.27" layer="27"/>
 </element>
 <element name="C3" library="xose" package="0805" value="1uF" x="62.992" y="41.402" smashed="yes" rot="R270">
@@ -1213,8 +1213,8 @@ design rules under a new name.</description>
 <element name="C5" library="xose" package="0805" value="0.1uF" x="49.022" y="45.212"/>
 <element name="C9" library="xose" package="0805" value="0.1uF" x="49.022" y="33.782"/>
 <element name="C10" library="xose" package="0805" value="0.1uF" x="49.022" y="20.828"/>
-<element name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0805" value="1K" x="62.992" y="29.718" smashed="yes" rot="R90">
-<attribute name="VALUE" x="65.278" y="28.956" size="1.27" layer="27" rot="R90"/>
+<element name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R0805" value="1K" x="63.246" y="29.718" smashed="yes" rot="R90">
+<attribute name="VALUE" x="65.532" y="28.956" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C11" library="xose" package="0805" value="0.1uF" x="4.318" y="11.938" rot="R90"/>
 <element name="IC1" library="SHTC3" package="SHTC3" value="SHTC3" x="6.858" y="11.43">
@@ -1316,7 +1316,7 @@ design rules under a new name.</description>
 <contactref element="MINIPCI-E" pad="17"/>
 <contactref element="R2" pad="2"/>
 <wire x1="60.492" y1="30.616" x2="60.594" y2="30.718" width="0.254" layer="1"/>
-<wire x1="60.594" y1="30.718" x2="62.992" y2="30.718" width="0.254" layer="1"/>
+<wire x1="60.594" y1="30.718" x2="63.246" y2="30.718" width="0.254" layer="1"/>
 </signal>
 <signal name="GPS_PPS">
 <contactref element="MINIPCI-E" pad="19"/>

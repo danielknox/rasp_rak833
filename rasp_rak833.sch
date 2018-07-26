@@ -6835,7 +6835,7 @@ Source: &lt;a href="https://www.glynshop.com/erp/owweb/Daten/Datenblaetter/Sensi
 <part name="GPS_EXT" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="ANTENNA_U.FL" device="" value="GPS_EXT"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="PPS" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0805"/>
-<part name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="1K"/>
+<part name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0805" value="50"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C3" library="xose" deviceset="C-EU" device="0805" value="1uF"/>
 <part name="C4" library="xose" deviceset="C-EU" device="0805" value="10uF"/>
